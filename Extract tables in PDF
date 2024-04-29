@@ -2,3 +2,8 @@
 import pdfplumber
 import pandas as pd
 import xlwings as xw
+
+# read PDF
+f = pdfplumber.open("  ")
+
+page = f.pages[30]
